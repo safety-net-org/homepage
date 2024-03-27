@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: #f8f8f8;
+    color: #333;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header img {
+    max-width: 150px;
+    height: auto;
+}
+
+section {
+    padding: 2em;
+}
+
+#contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 0.75em;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    display: block;
+    width: 100%;
+    padding: 1em;
+    border: none;
+    background: #008d4c;
+    color: white;
+    cursor: pointer;
+}
+
+#volunteer-btn {
+    background: #4eb457;
+    color: white;
+    padding: 1em 2em;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border: 0;
+}
+
+footer {
+    background: #222;
+    color: #ddd;
+    text-align: center;
+    padding: 1em 0;
+}
